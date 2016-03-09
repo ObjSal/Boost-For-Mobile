@@ -1,0 +1,9 @@
+b2
+bin.v2/
+bjam
+bootstrap.log
+libs/config/checks/architecture/bin/
+project-config.jam
+stage/
+tools/build/src/engine/bin.macosxx86_64/
+tools/build/src/engine/bootstrap/
