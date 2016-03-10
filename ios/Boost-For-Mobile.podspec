@@ -72,7 +72,9 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.prepare_command = "sh ios/configure_boost.sh"
+  s.prepare_command = <<-CMD
+  						ios/ofxiOSBoost/scripts/build-libc++withBitcode "$(pwd)/boost"
+  						CMD
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

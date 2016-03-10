@@ -1,1 +1,1 @@
-"`dirname \"$0\"`"/ofxiOSBoost/scripts/build-libc++withBitcode ../../../boost
+ofxiOSBoost/scripts/build-libc++withBitcode `pwd`/../boost
