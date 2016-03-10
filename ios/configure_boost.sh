@@ -1,1 +1,1 @@
-ofxiOSBoost/scripts/build-libc++withBitcode "`dirname \"$0\"`"/../boost
+"`dirname \"$0\"`"/ofxiOSBoost/scripts/build-libc++withBitcode "`dirname \"$0\"`"/../boost
